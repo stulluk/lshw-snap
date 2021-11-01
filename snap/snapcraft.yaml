@@ -6,9 +6,9 @@ description: |
   Snap version of well-known lshw. 
   lshw helps to get hardware information on linux
 
-  #architectures:
-  #- build-on: [amd64, arm64]
-  #  run-on: arm64
+architectures:
+  - build-on: [amd64, arm64]
+    run-on: arm64
 
 source-code: https://github.com/stulluk/lshw-snap
 compression: lzo
